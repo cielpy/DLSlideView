@@ -138,8 +138,8 @@
     UIImageView *fromIamge = (UIImageView *)[scrollView_ viewWithTag:kImageTagBase+fromIndex];
     UIImageView *fromSelectedIamge = (UIImageView *)[scrollView_ viewWithTag:kSelectedImageTagBase+fromIndex];
     fromLabel.textColor = [DLUtility getColorOfPercent:percent between:fromItem.titleColor and:fromItem.selectedTitleColor];
-    fromIamge.alpha = percent;
-    fromSelectedIamge.alpha = (1-percent);
+//    fromIamge.alpha = percent;
+//    fromSelectedIamge.alpha = (1-percent);
 
     if (toIndex >= 0 && toIndex < [self tabbarCount]) {
         DLFixedTabbarViewTabItem *toItem = [self.tabbarItems objectAtIndex:toIndex];
