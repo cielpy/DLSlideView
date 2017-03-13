@@ -147,8 +147,8 @@
         UIImageView *toIamge = (UIImageView *)[scrollView_ viewWithTag:kImageTagBase+toIndex];
         UIImageView *toSelectedIamge = (UIImageView *)[scrollView_ viewWithTag:kSelectedImageTagBase+toIndex];
         toLabel.textColor = [DLUtility getColorOfPercent:percent between:toItem.selectedTitleColor and:toItem.titleColor];
-        toIamge.alpha = (1-percent);
-        toSelectedIamge.alpha = percent;
+//        toIamge.alpha = (1-percent);
+//        toSelectedIamge.alpha = percent;
     }
     
     float width = self.bounds.size.width/self.tabbarItems.count;
