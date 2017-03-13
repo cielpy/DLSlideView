@@ -10,7 +10,7 @@
 #import "DLUtility.h"
 
 #define kTrackViewHeight 2
-#define kImageSpacingX 3.0f
+#define kImageSpacingX 0.0f
 
 #define kLabelTagBase 1000
 #define kImageTagBase 2000
